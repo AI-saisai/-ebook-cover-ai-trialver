@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Book Cover AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=BIZ+UDPMincho:wght@400;700&family=Dela+Gothic+One&family=DotGothic16&family=Hachi+Maru+Pop&family=IBM+Plex+Sans+JP:wght@400;500;700&family=Kaisei+Decol:wght@700&family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@400;700;900&family=Noto+Serif+JP:wght@400;700;900&family=Potta+One&family=Rampart+One&family=Shippori+Mincho:wght@400;700;800&family=Yuji+Syuku&family=Zen+Maru+Gothic:wght@500;700;900&family=Zen+Old+Mincho:wght@400;700;900&family=Yomogi&display=swap" rel="stylesheet" crossorigin="anonymous">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#6366f1',
+              secondary: '#a855f7',
+              dark: '#0f172a',
+              card: '#1e293b',
+            },
+            fontFamily: {
+              sans: ['"Noto Sans JP"', 'sans-serif'],
+              serif: ['"Noto Serif JP"', 'serif'],
+              mincho: ['"Shippori Mincho"', 'serif'],
+              maru: ['"Zen Maru Gothic"', 'sans-serif'],
+              kaisei: ['"Kaisei Decol"', 'serif'],
+              potta: ['"Potta One"', 'cursive'],
+              dela: ['"Dela Gothic One"', 'sans-serif'],
+              rampart: ['"Rampart One"', 'cursive'],
+              mochiy: ['"Mochiy Pop One"', 'sans-serif'],
+              dot: ['"DotGothic16"', 'monospace'],
+              yuji: ['"Yuji Syuku"', 'serif'],
+              hachi: ['"Hachi Maru Pop"', 'cursive'],
+              yomogi: ['"Yomogi"', 'cursive'],
+              bizgothic: ['"BIZ UDPGothic"', 'sans-serif'],
+              bizmincho: ['"BIZ UDPMincho"', 'serif'],
+              ibm: ['"IBM Plex Sans JP"', 'sans-serif'],
+              zenold: ['"Zen Old Mincho"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0f172a;
+        color: #f8fafc;
+      }
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #1e293b; }
+      ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+    </style>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
