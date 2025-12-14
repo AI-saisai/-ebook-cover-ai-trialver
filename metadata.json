@@ -1,5 +1,5 @@
 {
-  "name": "Copy of APIなし E-Book Cover AI ＜無料体験版＞",
-  "description": "Generate high-quality e-book covers using Gemini AI. (Free Trial Version)",
+  "name": "E-Book Cover AI (無料体験版)",
+  "description": "Gemini AIを使用して高品質な電子書籍の表紙を作成します。(無料体験版)",
   "requestFramePermissions": []
 }
